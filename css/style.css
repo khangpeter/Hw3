@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+}
+
+/* Skip Link */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.skip-link:focus {
+    left: 10px;
+}
+
+/* Navigation */
+header {
+    background: #0078d7;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-menu li {
+    margin: 0 10px;
+}
+
+.nav-menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+    background: #005fa3;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+/* Flexbox Layout */
+.card-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Box Model Demonstration */
+.card {
+    width: 250px;
+    background: white;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
